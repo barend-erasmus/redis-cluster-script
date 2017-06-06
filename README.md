@@ -1,4 +1,4 @@
-# redis-cluster-script
+# Install: Redis Cluster
 
 To install a Redis Cluster across multiple servers you'll need to execute the following command on each of the servers.
 
