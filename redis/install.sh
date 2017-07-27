@@ -1,5 +1,5 @@
 # Download Redis configuration file
-sudo curl -o /etc/redis/redis-server.conf https://raw.githubusercontent.com/barend-erasmus/redis-cluster-script/masterredis/redis-server.conf
+sudo curl -o /etc/redis/redis-server.conf https://raw.githubusercontent.com/barend-erasmus/redis-cluster-script/master/redis/redis-server.conf
 sed "s/_REDIS-PORT_/$1/g" /etc/redis/redis-server.conf > /etc/redis/redis-server-$1.conf
 
 # Download Redis service configuration file
